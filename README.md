@@ -7,9 +7,9 @@
 - **Webrowser**: [Qutebrowser](https://github.com/qutebrowser/qutebrowser)
 - **File Manager**: [Ranger](https://github.com/ranger/ranger)
 - **Dmenu**: [Rofi](https://github.com/davatorium/rofi)
-- **Document Viewer**: [Zathrua](https://github.com/pwmt/zathura)
+- **Document Viewer**: [Zathura](https://github.com/pwmt/zathura)
 - **Terminal**: [RXVT-Unicode](https://aur.archlinux.org/packages/rxvt-unicode-truecolor/)
-- **Font**: [xos4 Terminus](https://aur.archlinux.org/packages/terminus-font-td1-otb/)
+- **Font**: [Terminus](https://aur.archlinux.org/packages/terminus-font-td1-otb/)
 - **Theme**: [Gruvbox](https://github.com/sainnhe/gruvbox-material)
 
 ## Preview

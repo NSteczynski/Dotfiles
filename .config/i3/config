@@ -32,41 +32,41 @@ gaps outer $outer_gaps
 gaps top 33
 
 # #---Basic Bindings---# #
-bindsym $mod+Return  exec --no-startup-id $TERMINAL
+bindsym $mod+Return   exec --no-startup-id $TERMINAL
 
-bindsym $mod+q			 [con_id="__focused__" instance="^(?!dropdown_).*$"] kill
+bindsym $mod+q        [con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 
-bindsym $mod+w 			 exec --no-startup-id $BROWSER
+bindsym $mod+w 		    exec --no-startup-id $BROWSER
 
-bindsym $mod+e       exec --no-startup-id $TERMINAL -e 'ranger'
+bindsym $mod+e        exec --no-startup-id $TERMINAL -e 'ranger'
 
-bindsym $mod+a       exec --no-startup-id $TERMINAL -e 'alsamixer'
+bindsym $mod+a        exec --no-startup-id $TERMINAL -e 'alsamixer'
 
-bindsym $mod+d       exec --no-startup-id rofi -modi drun -show drun -display-drun "Run" -lines 10 -show-icons -theme "~/.config/rofi/config"
+bindsym $mod+d        exec --no-startup-id rofi -modi drun -show drun -display-drun "Run" -lines 10 -show-icons -theme "~/.config/rofi/config"
 
-bindsym $mod+m       exec --no-startup-id $TERMINAL -e 'gotop'
+bindsym $mod+m        exec --no-startup-id $TERMINAL -e 'gotop'
 
-bindsym $mod+f			 fullscreen toggle
-bindsym $mod+Shift+f floating toggle
+bindsym $mod+f        fullscreen toggle
+bindsym $mod+Shift+f  floating toggle
 
-bindsym $mod+h			 focus left
-bindsym $mod+Shift+h move left
-bindsym $mod+Ctrl+h	 move workspace to output left
+bindsym $mod+h        focus left
+bindsym $mod+Shift+h  move left
+bindsym $mod+Ctrl+h   move workspace to output left
 
-bindsym $mod+j			 focus down
-bindsym $mod+Shift+j move down
-bindsym $mod+Ctrl+j	 move workspace to output down
+bindsym $mod+j        focus down
+bindsym $mod+Shift+j  move down
+bindsym $mod+Ctrl+j   move workspace to output down
 
-bindsym $mod+k			 focus up
-bindsym $mod+Shift+k move up
-bindsym $mod+Ctrl+k	 move workspace to output up
+bindsym $mod+k        focus up
+bindsym $mod+Shift+k  move up
+bindsym $mod+Ctrl+k   move workspace to output up
 
-bindsym $mod+l			 focus right
-bindsym $mod+Shift+l move right
-bindsym $mod+Ctrl+l	 move workspace to output right
+bindsym $mod+l        focus right
+bindsym $mod+Shift+l  move right
+bindsym $mod+Ctrl+l   move workspace to output right
 
-bindsym $mod+x 			 exec --no-startup-id $reboot
-bindsym $mod+Shift+x exec --no-startup-id $shutdown
+bindsym $mod+x        exec --no-startup-id $reboot
+bindsym $mod+Shift+x  exec --no-startup-id $shutdown
 
 mode "Resize" {
   bindsym h resize grow left  10 px or 5 ppt
@@ -124,13 +124,13 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # Function Buttons
-bindsym $mod+F1	 restart
-bindsym $mod+F12 exec --no-startup-id $TERMINAL -e nmtui
+bindsym $mod+F1   restart
+bindsym $mod+F12  exec --no-startup-id $TERMINAL -e nmtui
 
 # Screenshot
-bindsym --release $mod+Print exec --no-startup-id scrot -s -e 'xclip -selection clipboard -t "image/png" < $f && rm $f'
-bindsym $mod+Shift+Print exec --no-startup-id scrot -u -e 'xclip -selection clipboard -t "image/png" < $f && rm $f'
-bindsym $mod+Shift+Control+Print exec --no-startup-id scrot -e 'xclip -selection clipboard -t "image/png" < $f && rm $f'
+bindsym --release $mod+Print      exec --no-startup-id scrot -s -e 'xclip -selection clipboard -t "image/png" < $f && rm $f'
+bindsym $mod+Shift+Print          exec --no-startup-id scrot -u -e 'xclip -selection clipboard -t "image/png" < $f && rm $f'
+bindsym $mod+Shift+Control+Print  exec --no-startup-id scrot    -e 'xclip -selection clipboard -t "image/png" < $f && rm $f'
 
 # Window borders
 client.focused          $border     $border     $border     $border     $border
