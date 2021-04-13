@@ -1,0 +1,47 @@
+#define white #d4be98
+#define black #1d2021
+#define grey #d4be98
+#define red #ea6962
+#define green #a9b665
+#define cyan #89b482
+#define yellow #d8a657
+#define blue #7daea3
+#define magenta #d3869b
+
+*.foreground: white
+*.background: black
+*.cursorColor: white
+*fading: 35
+*fadeColor: grey
+
+*.color0: black
+*.color1: red
+*.color2: green
+*.color3: yellow
+*.color4: blue
+*.color5: magenta
+*.color6: cyan
+*.color7: white
+*.color8: black
+*.color9: red
+*.color10: green
+*.color11: yellow
+*.color12: blue
+*.color13: magenta
+*.color14: cyan
+*.color15: white
+
+! Cursor theme
+Xcursor.theme: Bibata-Original-Classic
+
+! Font settings
+Xft.autohint: 1
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+Xft.dpi: 96
+
+! RXVT Unciode Configuration
+#include ".config/urxvt/urxvt"

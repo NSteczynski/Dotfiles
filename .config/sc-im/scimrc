@@ -1,0 +1,13 @@
+set autocalc
+set numeric
+set numeric_decimal=0
+set overlap
+set xlsx_readformulas
+
+color "type=HEADINGS bg=BLACK fg=WHITE"
+color "type=HEADINGS_ODD bg=BLACK fg=WHITE"
+color "type=CELL_SELECTION bg=WHITE fg=BLACK"
+color "type=CELL_SELECTION_SC bg=WHITE fg=BLACK"
+color "type=NUMB bg=BLACK fg=GREEN"
+color "type=STRG bg=BLACK fg=BLUE bold=1"
+color "type=DATEF bg=BLACK fg=YELLOW"
