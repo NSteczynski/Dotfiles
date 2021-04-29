@@ -5,7 +5,7 @@ URxvt.geometry: 92x24
 URxvt.internalBorder: 24
 URxvt.cursorBlink: false
 URxvt.cursorUnderline: false
-URxvt.saveline: 10240
+URxvt.saveline: 1024
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
@@ -13,6 +13,7 @@ URxvt.depth: 24
 URxvt.fading: 0
 URxvt.iso14755: false
 URxvt.buffered: true
+URxvt*skipBuiltinGlyphs: true
 
 ! Extensions
 URxvt.perl-ext-common: default,font-size

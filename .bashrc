@@ -12,6 +12,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # Exports
+export PATH="${PATH}:/home/ateku/.local/bin"
 export LANG="en_US.UTF-8"
 export EDITOR="nvim"
 export TERMINAL="urxvt"

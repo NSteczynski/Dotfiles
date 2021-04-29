@@ -40,17 +40,15 @@ set default-fg \#d4be98
 set completion-group-bg \#1d2021
 set completion-group-fg \#1d2021
 
-set topbar-bg \#1d2021
-set topbar-fg \#d4be98
-
-set tabbar-focus-bg \#1d2021
-set tabbar-focus-fg \#d4be98
-
 set completion-bg \#1d2021
 set completion-fg \#d4be98
 
 set notification-bg \#a9b665
 set notification-fg \#1d2021
+
+set highlight-color \#a9b665
+set highlight-active-color \#89b482
+set highlight-transparency 0.25
 
 set recolor
 set recolor-lightcolor \#1d2021

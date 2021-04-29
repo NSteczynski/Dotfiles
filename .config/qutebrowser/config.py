@@ -421,7 +421,7 @@ c.completion.use_best_match = True
 #   - true
 #   - false
 #   - ask
-c.content.notifications = False
+# c.content.notifications = False
 
 # Allow pdf.js to view PDF files in the browser. Note that the files can
 # still be downloaded by clicking the download button in the pdf.js
@@ -552,7 +552,7 @@ c.window.hide_decoration = True
 c.window.title_format = '{perc}{title_sep}'
 
 c.qt.args += [
-    "ignore-gpu-blacklist",
+    "ignore-gpu-blocklist",
     "enable-accelerated-2d-canvas",
     "enable-gpu-memory-buffer-video-frames",
     "enable-gpu-rasterization",
