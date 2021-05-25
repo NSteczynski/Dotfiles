@@ -64,7 +64,7 @@ c.colors.completion.even.bg = background
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.
 # Type: List of QtColor, or QtColor
-c.colors.completion.fg = [foreground, foreground, foreground]
+c.colors.completion.fg = [foreground]
 
 # Background color of the selected completion item.
 # Type: QssColor
@@ -550,6 +550,8 @@ c.window.hide_decoration = True
 # `tabs.title.format` are defined.
 # Type: FormatString
 c.window.title_format = '{perc}{title_sep}'
+
+c.qt.highdpi = True
 
 c.qt.args += [
     "ignore-gpu-blocklist",

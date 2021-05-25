@@ -1,8 +1,5 @@
 # vim: filetype=i3config
 
-# The font
-font pango:Terminus 12
-
 # The colors
 set_from_resource $foreground i3wm.color7
 set_from_resource $background i3wm.color0
@@ -142,3 +139,6 @@ client.background       $foreground
 
 # Mouse settings
 focus_follows_mouse no
+
+# Android
+for_window [title=".*Emulator.*"] floating enable

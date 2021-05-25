@@ -42,6 +42,3 @@ Xft.hintstyle: hintslight
 Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
 Xft.dpi: 96
-
-! RXVT Unciode Configuration
-#include ".config/urxvt/urxvt"
