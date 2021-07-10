@@ -132,6 +132,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias clean='sudo pacman -Rs $(pacman -Qqtd)'
+alias history='history 1'
 
 # Zinit
 zinit light romkatv/powerlevel10k
@@ -148,6 +149,7 @@ export EDITOR="nvim"
 export TERMINAL="kitty"
 export BROWSER="qutebrowser"
 export TERM="xterm-kitty"
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
 
 export ZSH_AUTOSUGGEST_USE_ASYNC="true"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"

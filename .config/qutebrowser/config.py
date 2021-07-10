@@ -421,7 +421,7 @@ c.completion.use_best_match = True
 #   - true
 #   - false
 #   - ask
-# c.content.notifications = False
+c.content.notifications.enabled = False
 
 # Allow pdf.js to view PDF files in the browser. Note that the files can
 # still be downloaded by clicking the download button in the pdf.js
@@ -552,6 +552,10 @@ c.window.hide_decoration = True
 c.window.title_format = '{perc}{title_sep}'
 
 c.qt.highdpi = True
+
+c.content.blocking.adblock.lists = ['https://easylist.to/easylist/easylist.txt', 'https://easylist.to/easylist/easyprivacy.txt', 'https://easylist-downloads.adblockplus.org/easylistdutch.txt', 'https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt', 'https://www.i-dont-care-about-cookies.eu/abp/', 'https://secure.fanboy.co.nz/fanboy-cookiemonster.txt']
+
+c.completion.open_categories = ['searchengines', 'history']
 
 c.qt.args += [
     "ignore-gpu-blocklist",
