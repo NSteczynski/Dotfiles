@@ -2,10 +2,8 @@ configuration {
   kb-remove-char-back: "BackSpace";
   kb-remove-to-eol: "";
   kb-accept-entry: "Return,KP_Enter";
-  kb-move-char-back: "Left,Control+h";
   kb-row-up: "Up,Control+k";
   kb-row-down: "Down,Control+j";
-  kb-move-char-forward: "Right,Control+l";
 }
 
 * {
@@ -14,13 +12,18 @@ configuration {
   width: 512px;
 }
 
+listview {
+  columns: 1;
+  lines: 10;
+}
+
 window {
   border-color: #89b482;
   border: 1;
 }
 
 inputbar {
-  children: [prompt,entry];
+  children: [prompt, entry];
 }
 
 prompt {
@@ -35,7 +38,11 @@ element {
   padding: 16px;
 }
 
-element selected {
+element.selected {
   background-color: #d4be98;
   text-color: #1d2021;
+}
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
 }

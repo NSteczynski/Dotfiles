@@ -40,7 +40,7 @@ bindsym $mod+e        exec --no-startup-id $TERMINAL -e 'ranger'
 
 bindsym $mod+a        exec --no-startup-id $TERMINAL -e 'alsamixer'
 
-bindsym $mod+d        exec --no-startup-id rofi -modi drun -show drun -display-drun "Run" -lines 10 -show-icons -theme "~/.config/rofi/config"
+bindsym $mod+d        exec --no-startup-id rofi -modi drun -show drun -display-drun "Run" -show-icons -theme "~/.config/rofi/config"
 
 bindsym $mod+m        exec --no-startup-id $TERMINAL -e 'gotop'
 

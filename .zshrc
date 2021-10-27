@@ -158,3 +158,8 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
 if [ -z "$DISPLAY" -a $XDG_VTNR -eq 1 ]; then
   startx
 fi
+
+
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -e "/usr/lib/kitty/shell-integration/kitty.zsh"; then source "/usr/lib/kitty/shell-integration/kitty.zsh"; fi
+# END_KITTY_SHELL_INTEGRATION
