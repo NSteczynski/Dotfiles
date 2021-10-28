@@ -6,6 +6,7 @@ return require('packer').startup(function()
   use 'b3nj5m1n/kommentary'
   use 'hoob3rt/lualine.nvim'
   use 'mfussenegger/nvim-dap'
+  use 'lervag/vimtex'
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   use {
     'nvim-telescope/telescope.nvim',

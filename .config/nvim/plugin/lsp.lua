@@ -6,7 +6,7 @@ vim.g.coq_settings = {
 
 local lsp = require 'lspconfig'
 local coq = require 'coq'
-local servers = { 'tsserver', 'clangd', 'pyright', 'texlab' }
+local servers = { 'tsserver', 'clangd', 'pyright', 'texlab', 'cssls' }
 
 local on_attach = function(client, bufnr)
   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end

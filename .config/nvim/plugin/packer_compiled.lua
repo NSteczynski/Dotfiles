@@ -108,6 +108,10 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/ateku/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/home/ateku/.local/share/nvim/site/pack/packer/start/vimtex"
   }
 }
 
